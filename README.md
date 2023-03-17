@@ -1,4 +1,3 @@
-UCS633
 Project 1
 
 
@@ -31,4 +30,4 @@ m5	         225	    16	     16	     1
 
 
 <br>
-Using TOPSIS the rankings are displayed in the form of a table, with the 1st rank offering the best decision, and last rank offering the worst decision making.
+Using TOPSIS the rankings are displayed in the form of a table , with the 1st rank offering the best decision, and last rank offering the worst decision making.
