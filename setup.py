@@ -1,19 +1,19 @@
 from setuptools import setup
 
 def readme():
-    with open(r"C:\Users\grewa\Desktop\Topsis-Harjot-102017126\README.md") as f:
+    with open(r"C:\Users\grewa\Desktop\ \UCS654\Topsis-Harjot-102017126\README.md") as f:
         README = f.read()
     return README
 
 setup(
     name="Topsis-Harjot-102017126",
-    version="1.0.0",
+    version="1.0.1",
     description="A Python package implementing TOPSIS for MCDM",
     long_description=readme(),
     long_description_content_type="text/markdown",
     author="Harjot tSingh",
     url = 'https://github.com/HarryGrewal9/Topsis-Harjot-102017126',
-    download_url = 'https://github.com/HarryGrewal9/Topsis-Harjot-102017126/archive/refs/tags/v_01.tar.gz',
+    download_url = 'https://github.com/HarryGrewal9/Topsis-Harjot-102017126/archive/refs/tags/v_02.tar.gz',
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
@@ -26,7 +26,7 @@ setup(
      ],
      entry_points={
         "console_scripts": [
-            "topsis=Topsis.topsis:main",
+            "topsis=topsis:main",
         ]
      },
      keywords=['python', 'TOPSIS', 'MCDM', 'MCDA',
